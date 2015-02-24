@@ -278,14 +278,14 @@ fn swf_f32(version: u8, v: f32) -> Data {
 
 #[derive(FromPrimitive)]
 enum AVM1StackDataType {
-    StringLiteral		= 0,
-    FloatLiteral		= 1,
-    Null				= 2,
-    Undefined			= 3,
-    Register			= 4,
-    Boolean				= 5,
-    Double				= 6,
-    Integer				= 7,
-    Constant8			= 8,
-    Constant16			= 9
+    StringLiteral = 0,
+    FloatLiteral  = 1,
+    Null          = 2,
+    Undefined     = 3,
+    Register      = 4,
+    Boolean       = 5,
+    Double        = 6,
+    Integer       = 7,
+    Constant8     = 8,
+    Constant16    = 9
 }
