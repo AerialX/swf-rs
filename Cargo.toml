@@ -1,0 +1,17 @@
+[package]
+name = "swf-rs"
+version = "0.0.1"
+authors = [
+	"Aaron Lindsay",
+]
+
+[lib]
+name = "swf"
+path = "src/lib.rs"
+
+[features]
+zlib = ["flate2"]
+
+[dependencies.flate2]
+version = "^0.1"
+optional = true

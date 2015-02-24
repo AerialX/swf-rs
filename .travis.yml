@@ -1,0 +1,8 @@
+language: rust
+
+os:
+    - linux
+
+script:
+    - cargo build -v
+    - cargo build --features zlib -v
